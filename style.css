@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  display: flex;
+  text-align: center;
+}
+
+header {
+  max-width: 377px;
+  background: #8e9aaf;
+}
+
+.logo {
+  margin: 32px 81px;
+}
+
+header h1 {
+  font-family: "Staatliches";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 34px;
+
+  color: #ffffff;
+  background: #cbc0d3;
+
+  padding: 20px 73px;
+}
+
+header p {
+  margin-top: 32px;
+  
+  padding: 0px 48px;
+
+  font-family: "Roboto";
+
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 20px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+
+img {
+  width: 220px;
+  margin-top: 32px;
+}
+main p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+
+  text-align: center;
+
+  color: #4a4e69;
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
